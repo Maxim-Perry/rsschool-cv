@@ -1,5 +1,5 @@
 # Maksim Borisov
-![Foto](/images/photo.JPG)
+
 ## Contacts
 **E-Mail** maximperryhappy@gmail.com
 
