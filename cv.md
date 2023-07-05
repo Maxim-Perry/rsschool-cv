@@ -41,5 +41,3 @@ Faculty of Journalism, Journalism
 * Russian (native)
 * German (C1)
 * English (B1)
-
-https://Maxim-Perry.github.io/rsschool-cv/cv
