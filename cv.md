@@ -1,9 +1,12 @@
 # Maksim Borisov
 ![Foto](/images/photo.JPG)
-### Contacts
+## Contacts
 **E-Mail** maximperryhappy@gmail.com
+
 **Mobile** +491779333887
+
 **Birthday** 7. April 1998
+
 **Address** 42119 Augustastraße 165, Wuppertal, Germany
 
 ## About me
