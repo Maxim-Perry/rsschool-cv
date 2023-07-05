@@ -1,25 +1,25 @@
-#Maksim Borisov
+# Maksim Borisov
 ![Foto](/images/photo.JPG)
-###Contacts
-*E-Mail* maximperryhappy@gmail.com
-*Mobile* +491779333887
-*Birthday* 7. April 1998
-*Address* 42119 Augustastraße 165, Wuppertal, Germany
+### Contacts
+* E-Mail* maximperryhappy@gmail.com
+* Mobile* +491779333887
+* Birthday* 7. April 1998
+* Address* 42119 Augustastraße 165, Wuppertal, Germany
 
-##About me
+## About me
 My priority qualities are responsibility, organization, and attention to detail. I demonstrate good communication and interpersonal skills and I am capable of working both independently and as part of an integrated team.
 
-##Skills
+## Skills
 * HTML
 * CSS
 * JavaScript
 
-##Code examples
+## Code examples
 '''function multiply(a, b){
  return a * b
 }'''
 
-##Work experience
+## Work experience
 * Design of a persuasive Landing Page;
 * Design of an online store;
 * Design of a business card website, catalog, corporate website, etc.
@@ -29,7 +29,7 @@ My priority qualities are responsibility, organization, and attention to detail.
 * Design adaptation for all devices
 
 
-##Education
+## Education
 * Orenburg State University, Orenburg
 Faculty of Journalism, Journalism
 
@@ -37,7 +37,7 @@ Faculty of Journalism, Journalism
 
 * ITlogia, Front-end developer crash course
 
-##Language skills
+## Language skills
 * Russian (native)
 * German (C1)
 * English (B1)
