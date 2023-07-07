@@ -15,11 +15,6 @@
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
-}
 
 .nav-item {
   position: relative;
@@ -28,8 +23,9 @@
 
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
     list-style: none;
   }
 
@@ -43,7 +39,7 @@
   }
 
   .nav-link:hover {
-    color: #065163;
+    color: #14acd2;
   }
 
 body {
@@ -62,47 +58,61 @@ body {
   }
 
 .container {
-    max-width: 1440px;
+  max-width: 1440px;
     margin: 0 auto;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
+    min-height: 50px;
   }
-
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:0 20px;
+  width:80%
+}
   html {
     scroll-behavior: smooth; 
-    background: linear-gradient(#049cc2,#00708c,#065163)
+    background: linear-gradient(#14acd2,#00708c)
+  }
+
+  header {
+    background-color:#065163;
   }
 
   .section {
     color: white;
-    width: 50%;
+    width: calc(50% - 20px);
+    padding:10px;
   }
 
   .section.head {
     width: 100%;
+    display: flex;
+    padding:50px 30px 35px
+    
   }
-  
-
   
   h1,h2 {
     font-family: Montserrat, sans-serif;
   }
 
-  h1 {
+.profile-title{
   font-size: 32px; 
-  }
+}
 
-  #profile {
-    display: flex;
-    justify-content: space-between;
-  }
-
+.profile-title-wrapper{
+  text-align: center;
+  float:right;
+  text-align: left;
+  padding-left: 10px;
+  width:calc(50% - 20px)
+}
   #profession {
     font-size: 18px;
   }
 
   #profile-photo {
+    float:left;
+    margin-right:auto;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -110,27 +120,90 @@ body {
     box-shadow: 0 1px 4px rgba(0, 51, 84, 0.6);
     filter: grayscale(0.2) brightness(1.05);
     transition: .3s;
+
+  }
+.section ul{
+  padding-left: 15px;
+}
+code{
+  font-size: 16px;
+}
+  span {
+    color: #065163;
+    font-family: Montserrat, sans-serif;
+  }
+
+  #burgers-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #burgers-link:hover {
+    color: #3dcbef;
   }
 
 
 
 
+  @media only screen and (min-width: 1200px){
+    .main-container{
+      width:65%;
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  
+  
 
 
 
 
-
-
-#logo-wrapper{
-  display: block;
-  background-image: url("assets/svg/rs_school_js.svg");
-  width:100px;
-  height:50px;
-  background-repeat: no-repeat;
+footer {
+  margin-top: 40px;
+  background-color:#065163;
 }
 
 footer .container{
   display:flex;
   justify-content: space-between;
+}
+
+
+.footer-link a, .footer-link p {
+  margin:0;
+  display: inline-block;
+  }
+.container-footer {
+  padding: 15px ;
+  display: flex;
+  align-items: center;
+}
+#year {
+    color: white;
+}
+#github-link {
+  text-decoration: none;
+    color: white;
+}
+
+#github-link:hover {
+  color:#14acd2;
+}
+
+#logo-wrapper{
+  display: block;
+  background-image: url("assets/svg/rs_school_js.svg");
+  width:121px;
+  height:45px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
