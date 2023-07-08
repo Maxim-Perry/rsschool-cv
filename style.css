@@ -18,13 +18,14 @@
 
 .nav-item {
   position: relative;
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 .nav-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left:0;
     flex-wrap:wrap;
     list-style: none;
   }
@@ -71,7 +72,7 @@ body {
 }
   html {
     scroll-behavior: smooth; 
-    background: linear-gradient(#14acd2,#00708c)
+    background: linear-gradient(#14acd2,#0083a4)
   }
 
   header {
@@ -82,6 +83,7 @@ body {
     color: white;
     width: calc(50% - 20px);
     padding:10px;
+    border-bottom: 2px solid #ffffff;
   }
 
   .section.head {
@@ -93,10 +95,30 @@ body {
   
   h1,h2 {
     font-family: Montserrat, sans-serif;
+    color: #065163;
   }
+
+
+#profile {
+border-bottom: 3px solid #ffffff;
+
+}
 
 .profile-title{
   font-size: 32px; 
+
+}
+
+.profile-title::after {
+content: "";
+width: 120px;
+height: 3px;
+border-radius: 30px;
+position: absolute;
+top: 76px;
+left: 81px;
+background-color: #384f55;
+
 }
 
 .profile-title-wrapper{
@@ -104,10 +126,11 @@ body {
   float:right;
   text-align: left;
   padding-left: 10px;
-  width:calc(50% - 20px)
+  width:calc(50% - 20px);
+  position: relative;
 }
   #profession {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   #profile-photo {
@@ -128,10 +151,11 @@ body {
 code{
   font-size: 16px;
 }
-  span {
-    color: #065163;
-    font-family: Montserrat, sans-serif;
-  }
+
+span {
+  display: inline-block;
+  margin-right: 10px;
+}
 
   #burgers-link {
     text-decoration: none;
@@ -160,10 +184,70 @@ code{
       width: 100%;
     }
   }
-  
-  
 
+  @media (max-width: 631px) {
+    #profile-photo {
+      float:left;
+      margin-right:auto;
+      margin-top: 30px;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 1px 4px rgba(0, 51, 84, 0.6);
+      filter: grayscale(0.2) brightness(1.05);
+      transition: .3s;
+  }
+}
 
+  @media (max-width: 864px) {
+    .profile-title::after {
+      content: "";
+      width: 120px;
+      height: 3px;
+      border-radius: 30px;
+      position: absolute;
+      top: 115px;
+      left: 12px;
+      background-color: #384f55;
+      
+      }
+  }
+  
+  @media (max-width: 416px) {
+    #profile {
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 0;
+    }
+.main-container{
+  margin:0;
+  width:100%
+}
+.profile-title::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  border-radius: 30px;
+  position: absolute;
+  top: 76px;
+  left: 12px;
+  background-color: #384f55;
+  
+  }
+    .profile-title-wrapper {
+      width: 100%;
+    }
+    .container-footer{
+      display:flex;
+      flex-direction:column;
+    }
+
+    .container-footer .footer-link{
+      margin-bottom: 20px;
+    }
+  }
 
 
 footer {
